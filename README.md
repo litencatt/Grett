@@ -2,10 +2,9 @@
 
 ## Usage
 ```
-$ npm i
-$ ./node_modules/.bin/clasp login
-$ ./node_modules/.bin/clasp create --rootDir ./src
-$ ./node_modules/.bin/clasp push
+$ npx clasp login
+$ npx clasp create --rootDir ./src
+$ npx clasp push
 ```
 
 ### Setup GAS
@@ -15,4 +14,7 @@ $ ./node_modules/.bin/clasp push
 ### Setup Spread sheet
 - Make `config` sheet
 - Set query value to Cell (2, 1)
-  - e.g `is:unread "Some filter subject strings"`
+
+query | 
+-- |
+is:unread "Some filter subject strings" |
