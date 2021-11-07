@@ -15,6 +15,6 @@ $ npx clasp -P src/ push
 - Make `config` sheet
 - Set query value to Cell (2, 1)
 
-query | 
--- |
-is:unread "Some filter subject strings" |
+![image](https://user-images.githubusercontent.com/17349045/140632921-db89300f-a9eb-4cfc-b0dd-45e92aeaf940.png)
+
+See more about search operators => https://support.google.com/mail/answer/7190
