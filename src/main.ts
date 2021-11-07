@@ -31,6 +31,11 @@ function doPost() {
       });
     }
   });
+
+  // No messages
+  if (summary.length == 0) {
+    return
+  }
   
   // Make payload
   const notifyMessage = {
