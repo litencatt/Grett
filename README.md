@@ -4,11 +4,11 @@
 ```
 $ npx clasp login
 $ npx clasp create --rootDir ./src
-$ npx clasp push
+$ npx clasp -P src/ push
 ```
 
 ### Setup GAS
-- `$ ./node_modules/.bin/clasp open`
+- npx clasp -P src/ open
 - Set `SHEET_ID` and `SLACK_INCOMING_WEBHOOK_URL` to Project property
 
 ### Setup Spread sheet
